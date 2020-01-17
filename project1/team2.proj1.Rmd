@@ -21,7 +21,8 @@ body{ /* Normal  */
 knitr::opts_chunk$set(echo = TRUE)
 ```
 ***
-Team ID: Team 2
+
+Team ID: **Team 2**
 
 Kenneth Lee: Wrote sections 1.1, 1.2, 2.1, 2.2, 2.3. Plot the graphs for descriptive analysis.
 
@@ -29,7 +30,8 @@ Rong Duan: Model Diagnostics
 
 Xialin Sang: Hypothesis Testing
 
-Chen Zhang: Mainly task 8 & organization of the report
+Chen Zhang: Mainly task 8 & organization of the report 
+
 ***
 
 ## 1. Introduction
@@ -292,9 +294,9 @@ Lastly, we recognize that there are many potential aspects of the experiment tha
 
 ## 4. Conclusion
 
-In conclusion, we have come up with a one-way ANOVA model to analyse the treatment of effect of class type based on the quantiative test scores from the 1st-grade student cohort. We have shown that our dataset does not violate the model assumptions. Thus, the model is appropriate for this problem setting.
+In conclusion, we have come up with a one-way ANOVA model to analyze the treatment effect of class type based on the quantiative test scores from the 1st-grade student cohort. We have shown that our dataset does not violate the model assumptions. Thus, the model is appropriate for this problem setting.
 
-By the F-test, we show that there is a treatment effect of class types on math test scores. We have also shown that the difference mostly are accounted by the differences between small class type and other class types using Tukey's procedure. We now would like to discuss whether or not any causal statements can be made.
+By the F-test, we show that there is a treatment effect of class types on math test scores for the 1st-grade student cohort. We have also shown that the difference mostly are accounted by the differences between small class type and other class types using Tukey's procedure. We now would like to discuss whether or not any causal statements can be made.
 
 We have also discussed the possibility of making any causal statements based on our analysis. With the assumptions we discuss and the result of the analysis, we are confident that some causal statements can be made based on our analysis.  
 
