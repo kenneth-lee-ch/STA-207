@@ -3,10 +3,10 @@ title: "A Class-level Analysis about the Effects of Class Type on Average Math S
 author: ""
 date: ""
 output:
+  pdf_document: default
   html_document:
     df_print: paged
     fig_caption: yes
-  pdf_document: default
 ---
 
 <style type="text/css">
@@ -139,7 +139,7 @@ After knowing the overall F-test is significant for testing the main effect of c
 
 #### 3.1 Two-way ANOVA model
 
-`Table 1` shows a summary of our ANOVA model. The sum of squares of schools shows the variability among the averaged test scores across schools, which is 6.2. The more similar the average of the mean test scores of schools, the smaller this sum of squares tend to be. Across class types, we also see that the variation of the outcomes around their respective mean of the averaged test scores based on each class type is higher, which is about 22.6. The smaller this value is, the smaller error variance we have. Similar to the usage of F-value, the p-value helps us understand whether there is a difference among the main effects of each class type or the difference happens due to chance. We will leave the detailed discussion of hypothesis testing in section `3.3`, which also utilizes the information from `Table 1`.
+`Table 1` shows a summary of our ANOVA model. The sum of squares of schools shows the variability among the averaged test scores across schools, which is 128366. The more similar the average of the mean test scores of schools, the smaller this sum of squares tend to be. Across class types, we also see that the variation of the outcomes around their respective mean of the averaged test scores based on each class type is lower, which is about 6559. The smaller this value is, the smaller error variance we have. Similar to the usage of F-value, the p-value helps us understand whether there is a difference among the main effects of each class type or the difference happens due to chance. We will leave the detailed discussion of hypothesis testing in section `3.3`, which also utilizes the information from `Table 1`.
 
 
 **Table 1: ANOVA Table**
